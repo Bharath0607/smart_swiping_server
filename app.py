@@ -13,7 +13,7 @@ import time
 # base_path = './../model/t5-small-gcp'
 base_path = './checkpoint_720000'
 trained_model = T5ForConditionalGeneration.from_pretrained(base_path + "/model")
-tokenizer = T5Tokenizer.from_pretrained('./../model/t5-small-gcp'  +  '/tokenizer')
+tokenizer = T5Tokenizer.from_pretrained( base_path +  '/tokenizer')
 def infer(text):
     stt_time = time.time()
     inputs = tokenizer.encode( text,return_tensors='pt',max_length=256, padding='max_length',truncation=True    )
