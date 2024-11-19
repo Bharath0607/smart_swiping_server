@@ -34306,7 +34306,7 @@ $0(){var s=this.a.f
 return s.length!==0?B.b.eL(s,0):null},
 $S:0}
 A.WL.prototype={
-$3$gestureController$mainTextController$setState(a,b,c){A.alp(A.aiY("http","https://"+A.f(B.b.gP(A.Vk().gni().split("//"))),"/pred/",A.aC(["gesture",a.a.a],t.N,t.z))).bh(new A.WJ(c,b),t.H).kk(new A.WK())
+$3$gestureController$mainTextController$setState(a,b,c){A.alp(A.aiY("https",B.b.gP(A.Vk().gni().split("//")),"/pred/",A.aC(["gesture",a.a.a],t.N,t.z))).bh(new A.WJ(c,b),t.H).kk(new A.WK())
 a.sbz("")},
 $C:"$3$gestureController$mainTextController$setState",
 $R:0,
